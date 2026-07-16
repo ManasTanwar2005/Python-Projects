@@ -1,0 +1,19 @@
+operator = input("Select a operator (+ - * /): ")
+
+num1=float(input("Ewnter 1st number: "))
+num2=float(input("Ewnter 2nd number: "))
+
+if operator=="+":
+    value= num1 + num2
+    print(f"ANSWER: {round(value, 2)}")
+elif operator=="-":
+    value= num1 - num2
+    print(f"ANSWER: {round(value, 2)}")
+elif operator=="*":
+    value= num1 * num2
+    print(f"ANSWER: {round(value, 2)}")
+elif operator=="/":
+    value= num1 / num2
+    print(f"ANSWER: {round(value, 2)}")
+else:
+    print(f"{operator} is not a valid operator")
